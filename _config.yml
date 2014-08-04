@@ -1,0 +1,11 @@
+# Site settings
+title: Gentoo 中文社区
+email: service@gentoo.org.cn
+description: Gentoo 中文社区
+baseurl: ""
+url: "http://www.gentoo.org.cn"
+github_username:  gentoo-zh
+
+# Build settings
+markdown: kramdown
+permalink: pretty
