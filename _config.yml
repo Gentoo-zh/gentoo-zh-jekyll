@@ -5,6 +5,7 @@ description: Gentoo 中文社区
 baseurl: ""
 url: "http://www.gentoo.org.cn"
 github_username:  gentoo-zh
+icp: "沪ICP备13001671号-1"
 
 # Build settings
 markdown: kramdown
