@@ -40,4 +40,4 @@ permalink: /about/
 2. 自己水平的提高
 3. 没有物质或金钱上的奖励，没有妹子
    - 当然，换一个次元就有了，[Install Gentoo](http://knowyourmeme.com/memes/install-gentoo) 是个 4chan 的典故。
-   ![Install Gentoo](http://file-share.oss-cn-hangzhou.aliyuncs.com/onii-chan-install-gentoo.gif)
+   ![Install Gentoo](https://oss.aliyuncs.com/file-share/onii-chan-install-gentoo.gif)
