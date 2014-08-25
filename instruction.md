@@ -1,14 +1,13 @@
 文件组织说明
 ============
 
-项目根目录下01~05的几个md文件分别对应设置好的各个栏目，通过
+项目根目录下01~04的几个md文件分别对应设置好的各个栏目，通过
 文件头部的``---``标记中的字段调取相应的配置信息。
 
-01news.md           新闻
-02download.md       下载
-03overlay.md        中文Overlay
-04mirrorlist.md     镜像列表
-05about.md          关于
+01download.md       下载
+02overlay.md        中文Overlay
+03mirrorlist.md     镜像列表
+04about.md          关于
 
 ``_layout``目录有两种模板，``page``和``post``，``page``预留给不含时间的下载说明
 等栏目使用，``post``给新闻这种包含时间的栏目使用。
