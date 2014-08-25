@@ -7,7 +7,7 @@ permalink: /mirrorlist/
 Gentoo 的包管理体系由 Portage 树和 Distfiles 两部分组成。Portage 树是包数据库，通过 rsync 提供；
 Distfiles 是下载文件，如软件包的源代码或图片资源，通过 HTTP 或 FTP 提供。
 
-Gentoo 在世界范围内存有大量镜像，这里仅列出对位于亚洲，速度对中国用户有优势的主要镜像，
+Gentoo 在世界范围内存有大量镜像，这里仅列出位于亚洲，速度对中国用户有优势的主要镜像，
 完整的镜像参见[官方镜像列表](http://www.gentoo.org/main/en/mirrors2.xml)。
 
 要使用镜像，你需要编辑 `/etc/portage/make.conf` 文件，Portage 镜像可通过设置 `SYNC` 变量指定，
