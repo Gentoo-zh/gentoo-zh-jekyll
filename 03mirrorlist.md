@@ -20,10 +20,16 @@ GENTOO_MIRRORS="http://mirrors.aliyun.com/gentoo/"
 
 使用来自中国科学技术大学的 Portage 镜像和阿里云的 Distfiles 镜像。
 
+由于 rsync 是 CPU 与 IO 密集型操作，服务器将会有很大的负担，而且容易遭到 DoS 攻击。因此，绝大多数镜像
+均不提供 rsync。
+
+如果你无法找到合适镜像；或防火墙禁止 rsync，可以使用 `emerge-webrsync`，Portage 会从 Distfiles 下载每日
+归档的 Portage 压缩包，曲线进行同步。
+
 # 列表
 
 * 网易
-  - Portage: rsync://mirrors.163.com/gentoo-portage/
+  - Portage: 已失效
   - Distfiles: http://mirrors.163.com/gentoo/
 * 搜狐
   - Portage: 不提供
@@ -38,5 +44,5 @@ GENTOO_MIRRORS="http://mirrors.aliyun.com/gentoo/"
   - Portage: 不提供
   - Distfiles: http://mirrors.xmu.edu.cn/gentoo/
 * 日本北陆尖端科学技术大学院大学（JAIST）
-  - Portage: rsync://ftp.iij.ad.jp/pub/linux/gentoo/
+  - Portage: 不提供
   - Distfiles: http://ftp.iij.ad.jp/pub/linux/gentoo/
