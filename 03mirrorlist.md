@@ -39,7 +39,7 @@ GENTOO_MIRRORS="http://mirrors.aliyun.com/gentoo/"
   - Distfiles: http://mirrors.aliyun.com/gentoo/
 * 中国科学技术大学（USTC）
   - Portage: http://mirrors.ustc.edu.cn/gentoo/
-  - Distfiles: rsync://mirrors.ustc.edu.cn/gentoo-portage/
+  - Distfiles: rsync://rsync.mirrors.ustc.edu.cn/gentoo-portage/
 * 厦门大学
   - Portage: 不提供
   - Distfiles: http://mirrors.xmu.edu.cn/gentoo/
