@@ -10,7 +10,7 @@
 #
 
 [[ -d ~/.gem ]] && export PATH=$PATH:`ruby -rubygems -e "puts Gem.user_dir"`/bin
-source=$HOME/www/gentoo-zh-jekyll
+source=$HOME/git/gentoo-zh-jekyll
 site=$HOME/www/gentoo.org.cn
 
 jekyll build --source $source --destination $site
